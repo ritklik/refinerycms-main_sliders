@@ -1,0 +1,29 @@
+tr:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: Yeni Ekle Main Slider
+            reorder: Tekrar sirala Main Sliders
+            reorder_done: Tekrar siralama tamamlandiMain Sliders
+          records:
+            title: Main Sliders
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Main Sliders yok henuz.  Tikla "Yeni Ekle Main Slider" eklemek senin ilk main slider.
+          main_slider:
+            view_live_html: Bunu canlu main slider goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle main slider
+            delete: Bunu Sil main slider sonsuza dek
+      main_sliders:
+        show:
+          other: Diger Main Sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

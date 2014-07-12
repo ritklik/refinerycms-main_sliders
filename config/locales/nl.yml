@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: Nieuwe Main Slider toevoegen
+            reorder: De volgorde van de Main Sliders wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Main Slider-volgorde
+          records:
+            title: Main Sliders
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Main Sliders. Druk op 'Nieuwe Main Slider toevoegen' om de eerste toe te voegen.
+          main_slider:
+            view_live_html: Deze main slider op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze main slider
+            delete: Deze main slider definitief verwijderen
+      main_sliders:
+        show:
+          other: Andere Main Sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Main Slider
+            reorder: Réordonner les Main Sliders
+            reorder_done: Fin de réordonnancement des Main Sliders
+          records:
+            title: Main Sliders
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Main Slider. Cliquer sur "Créer un(e) nouve(au/l/lle) Main Slider" pour créer votre premi(er/ère) main slider.'
+          main_slider:
+            view_live_html: Voir ce(t/tte) main slider <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) main slider
+            delete: Supprimer définitivement ce(t/tte) main slider
+      main_sliders:
+        show:
+          other: Autres Main Sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

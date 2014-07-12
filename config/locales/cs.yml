@@ -1,0 +1,29 @@
+cs:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: Přidat Main Slider
+            reorder: Řadit Main Sliders
+            reorder_done: Konec řazení Main Sliders
+          records:
+            title: Main Sliders
+            sorry_no_results: Litujeme, ale nebyly nalezny žádné výsledky.
+            no_items_yet: Zatím nebyly vytvořeny žádné Main Sliders. Zvolte "Přidat Main Slider" pro přidání prvního main slider.
+          main_slider:
+            view_live_html: Zobrazit náhled main slider<br/><em>(otevře se v novém okně)</em>
+            edit: Upravit main slider
+            delete: Smazat main slider
+      main_sliders:
+        show:
+          other: Další Main Sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

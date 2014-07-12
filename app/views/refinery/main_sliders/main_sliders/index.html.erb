@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="main_sliders">
+    <% @main_sliders.each do |main_slider| %>
+      <li>
+        <%= link_to main_slider.name, refinery.main_sliders_main_slider_path(main_slider) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

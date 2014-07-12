@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+#        article: masculino/femenino
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: Crear nuevo main slider
+            reorder: Reordenar main sliders
+            reorder_done: Reordenación de main sliders completada
+          records:
+            title: Main Sliders
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay main sliders todavía. Pulsa en "Crear nuevo Main Slider" para crear tu primer main slider.
+          main_slider:
+            view_live_html: Ver este main slider como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este main slider
+            delete: Borrar este main slider para siempre
+      main_sliders:
+        show:
+          other: Otros main sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

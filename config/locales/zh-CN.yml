@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: 建立新的 Main Slider
+            reorder: 对 Main Sliders 重新排序
+            reorder_done: 对 Main Sliders 的重新排序结束
+          records:
+            title: Main Sliders
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Main Sliders yet. Click "Add New Main Slider" to add your first main slider.
+            no_items_yet: 目前没有 Main Sliders . 点击 "Add New Main Slider" 创建一个main slider.
+          main_slider:
+            view_live_html: 查看 main slider 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 main slider
+            delete: 永久删除 main slider
+      main_sliders:
+        show:
+          other: 其他 Main Sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

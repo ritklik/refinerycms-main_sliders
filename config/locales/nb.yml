@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      main_sliders:
+        title: Main Sliders
+    main_sliders:
+      admin:
+        main_sliders:
+          actions:
+            create_new: Lag en ny Main Slider
+            reorder: Endre rekkefølgen på Main Sliders
+            reorder_done: Ferdig å endre rekkefølgen Main Sliders
+          records:
+            title: Main Sliders
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Main Sliders enda. Klikk på "Lag en ny Main Slider" for å legge til din første main slider.
+          main_slider:
+            view_live_html: Vis hvordan denne main slider ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne main slider
+            delete: Fjern denne main slider permanent
+      main_sliders:
+        show:
+          other: Andre Main Sliders
+  activerecord:
+    attributes:
+      'refinery/main_sliders/main_slider':
+        name: Name
+        photo: Photo
+        caption: Caption

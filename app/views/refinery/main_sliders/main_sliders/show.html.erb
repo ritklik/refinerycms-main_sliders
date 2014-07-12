@@ -1,0 +1,39 @@
+<% content_for :body_content_title do %>
+  <%= @main_slider.name %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Name</h1>
+    <p>
+      <%=raw @main_slider.name %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo</h1>
+    <p>
+      <%= image_fu @main_slider.photo, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Caption</h1>
+    <p>
+      <%=raw @main_slider.caption %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="main_sliders">
+      <% @main_sliders.each do |main_slider| %>
+        <li>
+          <%= link_to main_slider.name, refinery.main_sliders_main_slider_path(main_slider) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>
